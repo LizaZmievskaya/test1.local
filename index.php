@@ -9,11 +9,11 @@
 </form>
 <pre>
 <?php
-if($_GET["do"]="register"){
-var_dump($_GET);
-var_dump($_POST);
-var_dump($_SERVER);
-echo file_get_contents("php://input");
+if($_GET["do"]="register") {
+    var_dump($_GET);
+    var_dump($_POST);
+    var_dump($_SERVER);
+    echo file_get_contents("php://input");
 }
 ?>
 </pre>
